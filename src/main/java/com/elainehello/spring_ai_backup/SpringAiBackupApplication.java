@@ -1,7 +1,7 @@
 package com.elainehello.spring_ai_backup;
 
+import com.elainehello.spring_ai_backup.ui.JavaFxApplication;
 import javafx.application.Application;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

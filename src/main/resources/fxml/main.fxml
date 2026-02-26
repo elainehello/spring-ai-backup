@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing="10"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.elainehello.spring_ai_backup.ui.MainController">
+
+    <Button text="Choose Source" onAction="#chooseSource"/>
+    <Button text="Choose Destination" onAction="#chooseDestination"/>
+    <Button text="Start Backup" onAction="#startBackup"/>
+
+</VBox>
